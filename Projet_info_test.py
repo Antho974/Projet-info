@@ -81,6 +81,7 @@ capteur6=info3[info3["id"]==6]#sélectionne les données pour chaque capteur
 
 """calcul de distance"""
 
+"""test"""
 X=[i for i in range (6)]#[0,1,2,3,4,5]
 Y=[1,66,8,9,7,5]
 # df1 = pd.DataFrame({'x': [1, 2, 3], 'y': ['a', 'b', 'c']})
@@ -91,6 +92,7 @@ print(len(Xf & Yf))
 
 J=pd.merge(Xf,Yf,how='inner')
 print(len(J))
+
 
 def distance(vect1,vect2):
     dim1=len(vect1)
